@@ -3,6 +3,7 @@
     background-image: 
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
      url("images/hero-new.png");
+    
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -14,4 +15,31 @@
     font-size: 4rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   
+}
+
+.attendance-card {
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.85)), url("images/texture-new.png");
+background-size: cover;
+background-position: center center;
+}
+
+.attendance-card ul {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.attendance-card li {
+    margin-bottom: 5px;
+
+}
+.attendance-card p {
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.attendance-card h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
