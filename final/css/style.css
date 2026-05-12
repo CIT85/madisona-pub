@@ -1,0 +1,224 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F9F9F9;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #333;
+}
+h1 {
+        color: #4169E1;
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 1.1;
+      
+    }
+
+h2 {
+        color: #9370DB;
+        line-height: 1.1;
+
+    }
+    
+    
+nav {
+    background-color: #9370DB;
+    text-align: center;
+}
+.site-footer  {
+        background-color: #4169E1;
+        color:white;
+        text-align: center;
+        padding: 1.25rem;
+
+    }
+.site-footer a {
+    color: white;
+}
+a {
+    color: #4169E1;
+   
+}
+a:hover {
+    color: #9370DB;
+} 
+
+section {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-block: 1rem;
+}
+
+
+.cta-box {
+    max-width: 650px;
+    margin-inline: auto;
+    margin-block: 60px;
+    padding : 2rem;
+    text-align: center;
+    border: 2px solid #4169E1;
+}
+.cta-heading {
+    color: #4169E1;
+    
+}
+
+.cta-button {
+    background-color: #4169E1;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+   
+}
+.cta-button:hover {
+    background-color: #9370DB;
+}
+ 
+/* Final W3C Validation Check: Passed 04/21/2026 */
+.hero-section {
+    min-height: 60vh;
+    padding: 40px;
+    color: white;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/cacna1a-mom-son.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.hero-section h1,
+.hero-section p {
+    color: white;
+}
+
+.cta-box {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)),
+    url("../images/cacna1a-mom-son.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.cta-box h2,
+.cta-box p {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+a:hover,
+a:focus-visible {
+    color: #1f6e08
+}
+
+
+
+.wrapper {max-inline-size: 1200px;
+    margin-inline: auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    block-size: auto;
+    display: block;
+}
+
+figure {
+    margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+}
+
+.feature-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 700px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.grid-box {
+    background-color: #eeeeee;
+    padding: 1.25rem;
+    border-radius: 10px;
+}
+/* Mobile */
+@media (max-width: 700px) {
+    .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+figure {
+    margin: 0;
+   
+}
+figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 0.5em;
+
+}
+
+.subpage-hero {
+    background-color: #eeeeee;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
