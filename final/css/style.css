@@ -224,12 +224,13 @@ nav ul {
 }
 
 .active-page {
-    background-color: #333;
+    background-color: #4169E1;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 .logo {
+    color: #4169E1;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
