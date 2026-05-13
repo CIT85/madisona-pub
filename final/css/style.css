@@ -245,3 +245,12 @@ section {
 img {
    border-radius: 10px;
 }
+.cta-box a {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #4169E1;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
